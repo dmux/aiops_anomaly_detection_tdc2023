@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aiops-anomaly-detection-tdc2023"
+version = "0.1.0"
+description = "AIOps - Detecção de anomalias com Python e Prometheus - TDC 2023"
+authors = ["Rafael Sales <rafael.sales@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+jupyterlab = "^4.0.6"
+numpy = "^1.26.0"
+matplotlib = "^3.8.0"
+prophet = "^1.1.4"
+ipywidgets = "^8.1.1"
+plotly = "^5.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
